@@ -1,0 +1,13 @@
+{
+  "name": "init_package.json",
+  "version": "1.0.0",
+  "description": "This is a test for creating package.json fike",
+  "main": "index.js",
+  "scripts": {
+    "test": "cd"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {}
+}
