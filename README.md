@@ -2,16 +2,46 @@
 
 This is a home page of twitter
 
-if node is not installed, install node.js
+# Environment setup
 
-Further install npm
+Follow these instructions to setup the environment for this app.
 
-Clone this repo
+## Installing Node.js
 
-Head to the directory
+If node is not installed, go to the [Node.js Homepage](https://nodejs.org/en/) to download the package and install.
 
-npm start
+After installation run this command to check the version.
+	
+    $ node -v
 
-open localhost:3000
+## Installing npm
 
-it's live
+Nodejs comes with npm preinstalled , run this command to check the version.
+
+	$ npm -v
+    
+## Cloning the repo
+
+Run the following command to clone this repo.
+
+	$ git clone https://github.com/gharshr/Task1.git
+    
+## Installing dependencies
+
+Head to the directory.
+
+	$ cd Task1
+
+To install the dependecies run the following command. This may take some time to finish.
+
+	$ npm install
+    
+All necessary packages are installed in the node_modules folder.
+
+## Running the app
+
+To run the app execute :
+
+	$ npm start
+
+Open [localhost:3000](localhost:3000) , it's live.
